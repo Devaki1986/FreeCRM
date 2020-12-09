@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="160.737863">
+<testcase classname="ContractsPage" name="Contracts page test" time="26.691451">
+<system-out><![CDATA[Given user alredy in home page..............................................passed
+Then user entered "neeraja.devaki@gmail.com" and "Sweety23" and click on login.passed
+Then user click on contracts................................................passed
+Then user entered "anil1" and "devaki1" and click save......................passed
+And user can see bell icon..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="ContractsPage" name="Contracts page test 2" time="24.710063">
+<system-out><![CDATA[Given user alredy in home page..............................................passed
+Then user entered "neeraja.devaki@gmail.com" and "Sweety23" and click on login.passed
+Then user click on contracts................................................passed
+Then user entered "anil2" and "devaki2" and click save......................passed
+And user can see bell icon..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="ContractsPage" name="Contracts page test 3" time="29.724418">
+<system-out><![CDATA[Given user alredy in home page..............................................passed
+Then user entered "neeraja.devaki@gmail.com" and "Sweety23" and click on login.passed
+Then user click on contracts................................................passed
+Then user entered "anil3" and "devaki3" and click save......................passed
+And user can see bell icon..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="ContractsPage" name="Contracts page test 4" time="25.486181">
+<system-out><![CDATA[Given user alredy in home page..............................................passed
+Then user entered "neeraja.devaki@gmail.com" and "Sweety23" and click on login.passed
+Then user click on contracts................................................passed
+Then user entered "anil4" and "devaki4" and click save......................passed
+And user can see bell icon..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="ContractsPage" name="Contracts page test 5" time="27.51767">
+<system-out><![CDATA[Given user alredy in home page..............................................passed
+Then user entered "neeraja.devaki@gmail.com" and "Sweety23" and click on login.passed
+Then user click on contracts................................................passed
+Then user entered "anil5" and "devaki5" and click save......................passed
+And user can see bell icon..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="ContractsPage" name="Contracts page test 6" time="26.60808">
+<system-out><![CDATA[Given user alredy in home page..............................................passed
+Then user entered "neeraja.devaki@gmail.com" and "Sweety23" and click on login.passed
+Then user click on contracts................................................passed
+Then user entered "anil6" and "devaki6" and click save......................passed
+And user can see bell icon..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
