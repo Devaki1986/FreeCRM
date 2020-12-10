@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features="Features/Contracts.feature",
+		features="Features",
 		glue= {"com.ra.crm.stepdefination"},
 		plugin= {"pretty","html:test-output","json:json-output","junit:junit-xml"},
 		monochrome = true
