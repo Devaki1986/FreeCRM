@@ -79,7 +79,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5790446300,
+  "duration": 5828408200,
   "status": "passed"
 });
 formatter.scenario({
@@ -127,7 +127,7 @@ formatter.match({
   "location": "ContractsPage.in_alredy_in_home_page()"
 });
 formatter.result({
-  "duration": 5891126100,
+  "duration": 5911319900,
   "status": "passed"
 });
 formatter.match({
@@ -144,14 +144,14 @@ formatter.match({
   "location": "ContractsPage.in_entered_and_and_click_on_login(String,String)"
 });
 formatter.result({
-  "duration": 300428100,
+  "duration": 264192500,
   "status": "passed"
 });
 formatter.match({
   "location": "ContractsPage.in_click_on_contracts()"
 });
 formatter.result({
-  "duration": 10120088100,
+  "duration": 10139244500,
   "status": "passed"
 });
 formatter.match({
@@ -168,22 +168,22 @@ formatter.match({
   "location": "ContractsPage.in_entered_and_and_click_save(String,String)"
 });
 formatter.result({
-  "duration": 1017799000,
+  "duration": 1069394400,
   "status": "passed"
 });
 formatter.match({
   "location": "ContractsPage.in_can_see_bell_icon()"
 });
 formatter.result({
-  "duration": 646580700,
+  "duration": 610865800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 584520600,
+  "duration": 590886500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5355726700,
+  "duration": 5353066300,
   "status": "passed"
 });
 formatter.scenario({
@@ -231,7 +231,7 @@ formatter.match({
   "location": "ContractsPage.in_alredy_in_home_page()"
 });
 formatter.result({
-  "duration": 6724228200,
+  "duration": 5536475800,
   "status": "passed"
 });
 formatter.match({
@@ -248,14 +248,14 @@ formatter.match({
   "location": "ContractsPage.in_entered_and_and_click_on_login(String,String)"
 });
 formatter.result({
-  "duration": 262323700,
+  "duration": 326441400,
   "status": "passed"
 });
 formatter.match({
   "location": "ContractsPage.in_click_on_contracts()"
 });
 formatter.result({
-  "duration": 10145216100,
+  "duration": 10110989100,
   "status": "passed"
 });
 formatter.match({
@@ -272,18 +272,18 @@ formatter.match({
   "location": "ContractsPage.in_entered_and_and_click_save(String,String)"
 });
 formatter.result({
-  "duration": 1004160900,
+  "duration": 1022638700,
   "status": "passed"
 });
 formatter.match({
   "location": "ContractsPage.in_can_see_bell_icon()"
 });
 formatter.result({
-  "duration": 633550700,
+  "duration": 600190900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 677945400,
+  "duration": 596142000,
   "status": "passed"
 });
 formatter.uri("Deals.feature");
@@ -295,11 +295,11 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 5297048100,
+  "duration": 5430527800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 6083900,
+  "duration": 7812800,
   "status": "passed"
 });
 formatter.scenario({
@@ -443,39 +443,39 @@ formatter.match({
   "location": "DealsPage.user_alredy_in_home_page()"
 });
 formatter.result({
-  "duration": 2518030700,
+  "duration": 2115153000,
   "status": "passed"
 });
 formatter.match({
   "location": "DealsPage.user_entered_email_and_password_and_click_on_login(DataTable)"
 });
 formatter.result({
-  "duration": 239832500,
+  "duration": 266353000,
   "status": "passed"
 });
 formatter.match({
   "location": "DealsPage.user_click_on_deals()"
 });
 formatter.result({
-  "duration": 12293709600,
+  "duration": 12327172400,
   "status": "passed"
 });
 formatter.match({
   "location": "DealsPage.user_entered_deal_details(DataTable)"
 });
 formatter.result({
-  "duration": 117678411300,
+  "duration": 117763893100,
   "status": "passed"
 });
 formatter.match({
   "location": "DealsPage.user_close_the_browser()"
 });
 formatter.result({
-  "duration": 62300,
+  "duration": 68800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 617529200,
+  "duration": 676676300,
   "status": "passed"
 });
 formatter.uri("Login.feature");
@@ -598,7 +598,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5288730000,
+  "duration": 5376552600,
   "status": "passed"
 });
 formatter.scenario({
@@ -637,7 +637,7 @@ formatter.match({
   "location": "LoginPage.user_alredy_in_Home_Page()"
 });
 formatter.result({
-  "duration": 5938351100,
+  "duration": 5835277000,
   "status": "passed"
 });
 formatter.match({
@@ -654,29 +654,30 @@ formatter.match({
   "location": "LoginPage.user_entered_and(String,String)"
 });
 formatter.result({
-  "duration": 408195100,
+  "duration": 157537600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPage.user_click_on_Login_Button()"
 });
 formatter.result({
-  "duration": 135934000,
+  "duration": 51254200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginPage.user_successully_in_Main_Page()"
 });
 formatter.result({
-  "duration": 10662836500,
-  "status": "passed"
+  "duration": 10042745200,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"a[href\u003d\u0027/contacts\u0027]\"}\n  (Session info: chrome\u003d87.0.4280.88)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DEVAKI\u0027, ip: \u0027192.168.29.227\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\anilk\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58811}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: bd80061fec5e88935525b0626f089bbc\n*** Element info: {Using\u003dxpath, value\u003da[href\u003d\u0027/contacts\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.ra.crm.stepdefination.LoginPage.user_successully_in_Main_Page(LoginPage.java:62)\r\n\tat ✽.And user successully in Main Page(Login.feature:20)\r\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 676138600,
+  "duration": 595721600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5320223200,
+  "duration": 5287312400,
   "status": "passed"
 });
 formatter.scenario({
@@ -715,7 +716,7 @@ formatter.match({
   "location": "LoginPage.user_alredy_in_Home_Page()"
 });
 formatter.result({
-  "duration": 6567571000,
+  "duration": 4551378400,
   "status": "passed"
 });
 formatter.match({
@@ -732,26 +733,24 @@ formatter.match({
   "location": "LoginPage.user_entered_and(String,String)"
 });
 formatter.result({
-  "duration": 459719600,
-  "status": "passed"
+  "duration": 4664700,
+  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d87.0.4280.88)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DEVAKI\u0027, ip: \u0027192.168.29.227\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\anilk\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58878}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 6317e586f44433906c799f2b5e947b37\n*** Element info: {Using\u003dxpath, value\u003d//input[@name\u003d\u0027email\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.ra.crm.stepdefination.LoginPage.user_entered_and(LoginPage.java:39)\r\n\tat ✽.When user entered  \"anilkumar.devaki@gmail.com\" and \"Sweety23\"(Login.feature:18)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "LoginPage.user_click_on_Login_Button()"
 });
 formatter.result({
-  "duration": 84887700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "LoginPage.user_successully_in_Main_Page()"
 });
 formatter.result({
-  "duration": 10087019100,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@class\u003d\u0027ui basic button item\u0027]\"}\n  (Session info: chrome\u003d87.0.4280.88)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DEVAKI\u0027, ip: \u0027192.168.29.227\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\anilk\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51187}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 10bf2f3ae3afb407b3505dc4d79c0aff\n*** Element info: {Using\u003dxpath, value\u003d//button[@class\u003d\u0027ui basic button item\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.ra.crm.stepdefination.LoginPage.user_successully_in_Main_Page(LoginPage.java:62)\r\n\tat ✽.And user successully in Main Page(Login.feature:20)\r\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 598001800,
+  "duration": 726123300,
   "status": "passed"
 });
 });

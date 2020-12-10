@@ -59,9 +59,9 @@ public class LoginPage {
 		//driver.switchTo().frame(0);
 		
 	//	driver.findElement(By.xpath("//span[contains(text(),'Contacts')]")).click();
-	boolean b=	driver.findElement(By.xpath("//button[@class='ui basic button item']")).isEnabled();
+	//boolean b=	driver.findElement(By.xpath("a[href='/contacts']")).isEnabled();
 	
-	System.out.println(b);
+	//System.out.println(b);
 	
 		//String Title = driver.getTitle();
 		
