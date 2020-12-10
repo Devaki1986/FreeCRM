@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="54.588838">
-    <testcase classname="ContractsPage" name="Contracts page test" time="28.417033">
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="234.032456">
+    <testcase classname="ContractsPage" name="Contracts page test" time="24.350989">
         <system-out><![CDATA[Given in  alredy in home page...............................................passed
 Then in entered "neeraja.devaki@gmail.com" and "Sweety23" and click on login.passed
 Then in click on contracts..................................................passed
@@ -8,12 +8,62 @@ Then in entered "anil1" and "devaki1" and click save........................pass
 And in can see bell icon....................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="ContractsPage" name="Contracts page test 2" time="26.171805">
+    <testcase classname="ContractsPage" name="Contracts page test 2" time="24.803152">
         <system-out><![CDATA[Given in  alredy in home page...............................................passed
 Then in entered "neeraja.devaki@gmail.com" and "Sweety23" and click on login.passed
 Then in click on contracts..................................................passed
 Then in entered "anil2" and "devaki2" and click save........................passed
 And in can see bell icon....................................................passed
 ]]></system-out>
+    </testcase>
+    <testcase classname="DealsPage" name="Deals page test" time="138.650708">
+        <system-out><![CDATA[Given user alredy in home page..............................................passed
+Then user entered email and password and click on login.....................passed
+Then user click on deals....................................................passed
+Then user entered deal details..............................................passed
+And user close the browser..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="FreeCRM Test" name="&quot;Login in CRM and verify Home Page&quot;" time="23.110185">
+        <system-out><![CDATA[Given user alredy in Home Page..............................................passed
+When user entered  "neeraja.devaki@gmail.com" and "Sweety23"................passed
+Then user click on Login Button.............................................passed
+And user successully in Main Page...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="FreeCRM Test" name="&quot;Login in CRM and verify Home Page&quot; 2" time="23.117422">
+        <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class='ui basic button item']&quot;}&#10;  (Session info: chrome=87.0.4280.88)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DEVAKI', ip: '192.168.29.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\anilk\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51187}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 10bf2f3ae3afb407b3505dc4d79c0aff&#10;*** Element info: {Using=xpath, value=//button[@class='ui basic button item']}&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at com.ra.crm.stepdefination.LoginPage.user_successully_in_Main_Page(LoginPage.java:62)&#13;&#10;&#9;at ✽.And user successully in Main Page(Login.feature:20)&#13;&#10;"><![CDATA[Given user alredy in Home Page..............................................passed
+When user entered  "anilkumar.devaki@gmail.com" and "Sweety23"..............passed
+Then user click on Login Button.............................................passed
+And user successully in Main Page...........................................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='ui basic button item']"}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DEVAKI', ip: '192.168.29.227', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\anilk\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51187}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 10bf2f3ae3afb407b3505dc4d79c0aff
+*** Element info: {Using=xpath, value=//button[@class='ui basic button item']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.ra.crm.stepdefination.LoginPage.user_successully_in_Main_Page(LoginPage.java:62)
+	at ✽.And user successully in Main Page(Login.feature:20)
+]]></failure>
     </testcase>
 </testsuite>
